@@ -1,10 +1,13 @@
 package com.victorTello.LearnSpringBoot.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
     private GamingConsole game;
 
     public GameRunner(GamingConsole game) {
-         this.game = game;
+        this.game = game;
     }
 
     public void run() {
