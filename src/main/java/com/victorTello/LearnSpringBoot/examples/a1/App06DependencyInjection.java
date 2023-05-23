@@ -14,6 +14,8 @@ class YourBusinessClass {
 
     Dependency2 dependency2;
 
+    // Recomended
+
     public YourBusinessClass(Dependency1 dependency1, Dependency2 dependency2) {
         System.out.println("Constructor Injection - YourBusinessClass");
         this.dependency1 = dependency1;
