@@ -2,9 +2,9 @@ package com.victorTello.LearnSpringBoot.examples.c1;
 
 import java.util.Arrays;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class BusinessCalculationService {
 
     private DataService dataService;
